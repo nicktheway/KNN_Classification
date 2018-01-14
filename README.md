@@ -19,7 +19,7 @@ can be found in the **Files** directory here:
     * Blocking: `mpicc -O3 -fopenmp functions.c MPI_B_KNN.c -o BL`
     * Non Blocking: `mpicc -O3 -fopenmp functions.c MPI_NB_KNN.c -o NBL`
     * Serial: `gcc -O3 Serial_KNN.c -o SE -lrt
- 4. Run the programs on a single computer, example with the data provided in the **Files** directory and 4 procs:
+ 4. Run the programs on a single computer (example with the data provided in the **Files** directory and **4** procs):
     * Blocking: `mpiexec -np 4 ./BL 10000 784`
     * Non Blocking: `mpiexec -np 4 ./NBL 60000 30`
  
