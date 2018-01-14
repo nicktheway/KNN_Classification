@@ -2,9 +2,9 @@
 ### KNN Classification with MPI and openMP support
 
 The source code of the program is in the **Source** folder. There are 3 versions:
-- The MPI Blocking version
-- The MPI Non-Blocking version
-- A serial version
+- The MPI Blocking version _MPI_B_KNN.c_
+- The MPI Non-Blocking version _MPI_NB_KNN.c_
+- A serial version _Serial_KNN.c_
 
 The data used to produce the resulting graphs found on the **images** folder 
 can be found in the **Files** directory here:
