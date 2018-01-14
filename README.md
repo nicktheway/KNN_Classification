@@ -24,4 +24,4 @@ can be found in the **Files** directory here:
     * Non Blocking: `mpiexec -np 4 ./NBL 60000 30`
  
  For running the scripts on the hellasgrid cluster you can use scripts like the ones provided in the **Scripts** folder.
- The matlab scripts was used to extract the plots shown at the **images** folder.
+ The matlab script was used to extract the plots shown at the **images** folder.
